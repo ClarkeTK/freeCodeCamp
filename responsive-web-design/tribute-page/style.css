@@ -1,4 +1,8 @@
 body {
     background-color:slategray;
-    color: rgb(54, 54, 54);
+    color: rgb(41, 41, 41);
+}
+
+a {
+    color: aliceblue;
 }
