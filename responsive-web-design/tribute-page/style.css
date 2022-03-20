@@ -3,6 +3,21 @@ body {
     color: rgb(41, 41, 41);
 }
 
+header {
+    float: left;
+    width: 35%;
+}
+
+article {
+    float: right;
+    width: 60%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 a {
     color: aliceblue;
 }
