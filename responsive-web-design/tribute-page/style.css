@@ -1,24 +1,35 @@
+
 body {
     background-color:slategray;
     color: rgb(41, 41, 41);
-}
-
-header {
-    float: left;
-    width: 40%;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #main {
     width: 75vw;
     margin: auto;
-}
+}    
+
+aside {
+    float: left;
+    width: 40%;
+}    
+
+#title {
+    font-style: italic;
+    font-size: 5vw;
+    margin-bottom: 0px;
+    background-color: #8D99A5;
+    overflow-x: hidden;
+}    
+
 #tribute-info {
     float: left;
     width: 60%;
-}
+}    
 
 @media (max-width: 800px) {
-    header, #tribute-info {
+    aside, #tribute-info {
         width: 100%;
         height: auto;
     }
