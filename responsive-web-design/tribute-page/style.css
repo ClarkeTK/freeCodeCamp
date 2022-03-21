@@ -20,13 +20,16 @@ aside {
     font-size: 5vw;
     margin-bottom: 0px;
     background-color: #8D99A5;
-    overflow-x: hidden;
 }    
 
 #tribute-info {
     float: left;
     width: 60%;
 }    
+
+footer {
+    text-align: right;
+}
 
 @media (max-width: 800px) {
     aside, #tribute-info {
