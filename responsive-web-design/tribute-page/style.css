@@ -5,9 +5,13 @@ body {
 
 header {
     float: left;
-    width: 35%;
+    width: 40%;
 }
 
+#main {
+    width: 75vw;
+    margin: auto;
+}
 #tribute-info {
     float: right;
     width: 60%;
