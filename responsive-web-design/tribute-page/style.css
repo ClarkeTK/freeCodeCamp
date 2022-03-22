@@ -30,6 +30,11 @@ aside {
     width: 60%;
 }    
 
+.link {
+    color: rgb(41, 41, 41);
+    text-decoration: none;
+}
+
 footer {
     text-align: right;
 }
