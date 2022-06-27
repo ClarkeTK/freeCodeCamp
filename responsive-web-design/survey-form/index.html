@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Franky Morales Invitational 2022</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+<body>
+    <h1 id="title">Competitor Entry Form</h1>
+        <p id="description">Please enter your details.</p>
+        <form id="survey-form" action="#">
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label id="name-label" for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="First & Last Name" required />
+                <label id="email-label" for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="Email Address" required />
+                <label id="number-label" for="number">Age</label>
+                    <input id="number" name="age" type="number" min="12" max="100" placeholder="Must be 12 years or older" required />
+            </fieldset>
+            <fieldset>
+                <legend>Competion Selection</legend>
+                <label id="dropdown-label" for="dropdown">Division</label>
+                    <select id="dropdown" name="division">
+                        <option>Amateur</option>
+                        <option>Professional</option>
+                    </select>
+                <fieldset>
+                    <legend>Event</legend>
+                    <label id="street-label" for="street">
+                        <input id="street" name="event" type="checkbox" value="street" required /> Street
+                    </label>
+                    <label id="park-label" for="park">
+                        <input id="park" name="event" type="checkbox" value="park" /> Park
+                    </label>
+                    <label id="vert-label" for="vert">
+                        <input id="vert" name="event" type="checkbox" value="vert" /> Vert
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Location</legend>
+                    <label id="usa-label" for="usa">
+                        <input id="usa" name="location" type="radio" value="usa" required /> USA
+                    </label>
+                    <label id="canada-label" for="canada">
+                        <input id="canada" name="location" type="radio" value="canada" /> Canada
+                    </label>
+                </fieldset>
+            </fieldset>
+            <fieldset>
+                <label id="comments-label" for="comments"> Comments
+                    <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Leave any comments here."></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit" />
+        </form>
+</body>
+</html>
