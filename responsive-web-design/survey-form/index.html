@@ -7,6 +7,10 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
 <body>
+    <video autoplay muted loop id="background-landscape" poster="media/images/poster.jpg">
+        <source src="media/video/background-landscape.webm" type="video/webm">
+    </video>
+    <div id="comp-form">
     <h1 id="title">Competitor Entry Form</h1>
         <p id="description">Please enter your details.</p>
         <form id="survey-form" action="#">
@@ -49,11 +53,16 @@
                 </fieldset>
             </fieldset>
             <fieldset>
+                <label id="waiver" for="waiver-file">Upload Waiver: 
+                <input id="waiver-file" type="file"></label>
+            </fieldset>
+            <fieldset>
                 <label id="comments-label" for="comments"> Comments
                     <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Leave any comments here."></textarea>
                 </label>
             </fieldset>
             <input type="submit" value="Submit" />
         </form>
+        </div>
 </body>
 </html>
