@@ -5,6 +5,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="../../../images/favicon.ico" />
     </head>
 <body>
     <video autoplay muted loop id="background-landscape" poster="media/images/poster.jpg">
@@ -27,8 +28,9 @@
                 <legend>Competion Selection</legend>
                 <label id="dropdown-label" for="dropdown">Division</label>
                     <select id="dropdown" name="division">
-                        <option>Amateur</option>
-                        <option>Professional</option>
+                        <option value="-">-</option>
+                        <option value="am">Amateur</option>
+                        <option value="pro">Professional</option>
                     </select>
                 <fieldset>
                     <legend>Event</legend>
